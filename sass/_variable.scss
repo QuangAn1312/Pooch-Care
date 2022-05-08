@@ -1,0 +1,55 @@
+// Color 
+$c1-1: #151515;
+$c1-2: #176D36;
+$c1-3: #fff;
+$c1-4: #f53626;
+$c1-5: #696969;  
+
+
+
+// Font-size
+$s-s: 1rem;
+$s-s1:1.125rem;
+$s-s2 : 1.875rem;
+
+// Custom button
+@mixin readbtn() {
+        font-size: 17px;
+        padding: 0;
+        text-decoration: none;
+        border-bottom: 2px solid $c1-2 ;
+        color: var(--heading-color);
+        transition: 0.3s ease-in-out;
+        font-weight: 600;
+        border-radius: 0;
+        margin-top: 20px;
+        display: inline-block;
+        text-transform: capitalize;
+}
+
+// border-radius:
+@mixin border {
+    border-radius : 8px;
+} 
+
+// Tittle
+.sub-title {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 2em;
+    letter-spacing: 1px;
+    color: $c1-4;
+}
+// Text-heading 
+.hny-title{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    text-transform: capitalize;
+}
+
+// animation
+
+// 
+
